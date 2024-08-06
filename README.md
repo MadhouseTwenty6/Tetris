@@ -1,35 +1,43 @@
-# Python Tetris
+# Tetris Game
 
-This is the repository with non-finished implementation of the tetris. Please, be patient because I am writing it in my free time :-).
+This repository contains a Python implementation of the classic Tetris game using Pygame. The game features traditional Tetris mechanics, including block movement, rotation, line clearing, and scoring.
 
-### Prerequisites
+## Overview
 
-The game is based on the pygame library. You can install it using the pip tool.
+The Tetris game is implemented with Python and Pygame. The main class `Tetris` handles game initialization, logic, rendering, and user input. The game board and blocks are dynamically managed, with blocks falling from the top of the screen and players aiming to clear lines by forming complete rows.
 
-```
-pip3 install --user pygame
-```
+## Features
 
-Provided code is written for Python3. After that, you can run the game with:
+- Block movement: Move blocks left, right, and down.
+- Rotation: Rotate blocks to fit them into the board.
+- Line clearing: Clear completed lines and score points.
+- Game over: End the game when blocks stack up to the top.
 
-```
-python3 tetris.py
-```
+## Requirements
 
+- Python 3.x
+- Pygame library
 
-## Control
+## Installation
 
-The following list contains used control keys:
+1. **Clone the Repository**
 
-* *Arrows* - used for the moving of a tetris block
-* *Space*  - rotates the tetris block
-* *q*      - quit the game
-* *p*      - pause the game
+    ```bash
+    git clone https://github.com/MadhouseTwenty6/UnhideWhenNear.git
+    cd UnhideWhenNear
+    ```
 
-## Authors
+2. **Install Dependencies**
 
-* **Pavel Benáček** - *coding of the game*
+    Ensure you have Pygame installed. You can install it using pip:
 
-## License
+    ```bash
+    pip install pygame
+    ```
 
-This project is licensed under the GNU GPL License - see the [LICENSE.md](LICENSE.md) file for details
+## Running the Game
+
+To start the game, run the following command:
+
+```bash
+python tetris.py
